@@ -1,0 +1,7 @@
+version: "2"
+linters:
+  default: all
+  disable:
+    - depguard # The default policy blocks imports between this module's internal packages.
+    - gomodguard # Deprecated by golangci-lint; replaced by gomodguard_v2.
+    - wsl # Deprecated by golangci-lint; replaced by wsl_v5.
