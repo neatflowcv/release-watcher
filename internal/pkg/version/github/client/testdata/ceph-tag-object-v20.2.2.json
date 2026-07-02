@@ -1,0 +1,24 @@
+{
+  "node_id": "TA_kwDOACNBX9oAKGNkYzY4Y2EyMTEzNWE3YjVmYTkxM2YyMTZjMzkwMzYyOGYzYjYxYmI",
+  "sha": "cdc68ca21135a7b5fa913f216c3903628f3b61bb",
+  "url": "https://api.github.com/repos/ceph/ceph/git/tags/cdc68ca21135a7b5fa913f216c3903628f3b61bb",
+  "tagger": {
+    "name": "Ceph Release Team",
+    "email": "ceph-maintainers@ceph.io",
+    "date": "2026-06-15T14:56:51Z"
+  },
+  "object": {
+    "sha": "0fcffee29411e3a38036764817b6e1afc59741cc",
+    "type": "commit",
+    "url": "https://api.github.com/repos/ceph/ceph/git/commits/0fcffee29411e3a38036764817b6e1afc59741cc"
+  },
+  "tag": "v20.2.2",
+  "message": "v20.2.2\n",
+  "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+  }
+}

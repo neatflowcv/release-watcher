@@ -1,0 +1,302 @@
+[
+  {
+    "name": "v21.3.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v21.3.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v21.3.0",
+    "commit": {
+      "sha": "cc6b5e2da077eadb8bc32a25e1a33143da0b9bdb",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/cc6b5e2da077eadb8bc32a25e1a33143da0b9bdb"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIxLjMuMA=="
+  },
+  {
+    "name": "v21.0.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v21.0.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v21.0.1",
+    "commit": {
+      "sha": "64c25741846ec007cd4a26dca9792a756beed596",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/64c25741846ec007cd4a26dca9792a756beed596"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIxLjAuMQ=="
+  },
+  {
+    "name": "v21.0.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v21.0.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v21.0.0",
+    "commit": {
+      "sha": "c9045e280ded78e4fbc5e4bba74233bec5701c60",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/c9045e280ded78e4fbc5e4bba74233bec5701c60"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIxLjAuMA=="
+  },
+  {
+    "name": "v20.3.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.3.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.3.0",
+    "commit": {
+      "sha": "e2acaa5c8579e1ced4d71c7b14e0cd0d59a44fcf",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/e2acaa5c8579e1ced4d71c7b14e0cd0d59a44fcf"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjMuMA=="
+  },
+  {
+    "name": "v20.2.2",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.2.2",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.2.2",
+    "commit": {
+      "sha": "0fcffee29411e3a38036764817b6e1afc59741cc",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/0fcffee29411e3a38036764817b6e1afc59741cc"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjIuMg=="
+  },
+  {
+    "name": "v20.2.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.2.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.2.1",
+    "commit": {
+      "sha": "6a49aff47758778a5f5951e731d437c317f72fb2",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/6a49aff47758778a5f5951e731d437c317f72fb2"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjIuMQ=="
+  },
+  {
+    "name": "v20.2.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.2.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.2.0",
+    "commit": {
+      "sha": "69f84cc2651aa259a15bc192ddaabd3baba07489",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/69f84cc2651aa259a15bc192ddaabd3baba07489"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjIuMA=="
+  },
+  {
+    "name": "v20.1.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.1.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.1.1",
+    "commit": {
+      "sha": "dd9c546413d50a90668289255a256022ea21f0c0",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/dd9c546413d50a90668289255a256022ea21f0c0"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjEuMQ=="
+  },
+  {
+    "name": "v20.1.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.1.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.1.0",
+    "commit": {
+      "sha": "010a3ad647c9962d47812a66ad6feda26ab28aa4",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/010a3ad647c9962d47812a66ad6feda26ab28aa4"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjEuMA=="
+  },
+  {
+    "name": "v20.0.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v20.0.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v20.0.0",
+    "commit": {
+      "sha": "048fc68c517f50b9978457f478ca4638f01caa09",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/048fc68c517f50b9978457f478ca4638f01caa09"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIwLjAuMA=="
+  },
+  {
+    "name": "v19.3.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.3.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.3.0",
+    "commit": {
+      "sha": "6850bc28ae3fc583b01c56a0c95b424227ca3820",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/6850bc28ae3fc583b01c56a0c95b424227ca3820"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjMuMA=="
+  },
+  {
+    "name": "v19.2.4",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.2.4",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.2.4",
+    "commit": {
+      "sha": "7cc0193a616a3333d22b7762037fa5b73a4d06a6",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/7cc0193a616a3333d22b7762037fa5b73a4d06a6"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjIuNA=="
+  },
+  {
+    "name": "v19.2.3",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.2.3",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.2.3",
+    "commit": {
+      "sha": "c92aebb279828e9c3c1f5d24613efca272649e62",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/c92aebb279828e9c3c1f5d24613efca272649e62"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjIuMw=="
+  },
+  {
+    "name": "v19.2.2",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.2.2",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.2.2",
+    "commit": {
+      "sha": "0eceb0defba60152a8182f7bd87d164b639885b8",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/0eceb0defba60152a8182f7bd87d164b639885b8"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjIuMg=="
+  },
+  {
+    "name": "v19.2.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.2.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.2.1",
+    "commit": {
+      "sha": "58a7fab8be0a062d730ad7da874972fd3fba59fb",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/58a7fab8be0a062d730ad7da874972fd3fba59fb"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjIuMQ=="
+  },
+  {
+    "name": "v19.2.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.2.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.2.0",
+    "commit": {
+      "sha": "16063ff2022298c9300e49a547a16ffda59baf13",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/16063ff2022298c9300e49a547a16ffda59baf13"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjIuMA=="
+  },
+  {
+    "name": "v19.1.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.1.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.1.1",
+    "commit": {
+      "sha": "1d9f35852eef16b81614e38a05cf88b505cc142b",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/1d9f35852eef16b81614e38a05cf88b505cc142b"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjEuMQ=="
+  },
+  {
+    "name": "v19.1.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.1.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.1.0",
+    "commit": {
+      "sha": "9025b9024baf597d63005552b5ee004013630404",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/9025b9024baf597d63005552b5ee004013630404"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjEuMA=="
+  },
+  {
+    "name": "v19.0.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v19.0.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v19.0.0",
+    "commit": {
+      "sha": "1680e466aab77cdf9ba07394bea664106580b32b",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/1680e466aab77cdf9ba07394bea664106580b32b"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE5LjAuMA=="
+  },
+  {
+    "name": "v18.2.8",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.8",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.8",
+    "commit": {
+      "sha": "efac5a54607c13fa50d4822e50242b86e6e446df",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/efac5a54607c13fa50d4822e50242b86e6e446df"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuOA=="
+  },
+  {
+    "name": "v18.2.7",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.7",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.7",
+    "commit": {
+      "sha": "6b0e988052ec84cf2d4a54ff9bbbc5e720b621ad",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/6b0e988052ec84cf2d4a54ff9bbbc5e720b621ad"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuNw=="
+  },
+  {
+    "name": "v18.2.6",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.6",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.6",
+    "commit": {
+      "sha": "ff498e17d264a1a4d588c361cbce9cc65afa2327",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/ff498e17d264a1a4d588c361cbce9cc65afa2327"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuNg=="
+  },
+  {
+    "name": "v18.2.5",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.5",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.5",
+    "commit": {
+      "sha": "a5b0e13f9c96f3b45f596a95ad098f51ca0ccce1",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/a5b0e13f9c96f3b45f596a95ad098f51ca0ccce1"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuNQ=="
+  },
+  {
+    "name": "v18.2.4",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.4",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.4",
+    "commit": {
+      "sha": "e7ad5345525c7aa95470c26863873b581076945d",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/e7ad5345525c7aa95470c26863873b581076945d"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuNA=="
+  },
+  {
+    "name": "v18.2.2",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.2",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.2",
+    "commit": {
+      "sha": "531c0d11a1c5d39fbfe6aa8a521f023abf3bf3e2",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/531c0d11a1c5d39fbfe6aa8a521f023abf3bf3e2"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuMg=="
+  },
+  {
+    "name": "v18.2.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.1",
+    "commit": {
+      "sha": "7fe91d5d5842e04be3b4f514d6dd990c54b29c76",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/7fe91d5d5842e04be3b4f514d6dd990c54b29c76"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuMQ=="
+  },
+  {
+    "name": "v18.2.0",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.2.0",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.2.0",
+    "commit": {
+      "sha": "5dd24139a1eada541a3bc16b6941c5dde975e26d",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/5dd24139a1eada541a3bc16b6941c5dde975e26d"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjIuMA=="
+  },
+  {
+    "name": "v18.1.3",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.1.3",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.1.3",
+    "commit": {
+      "sha": "f594a0802c34733bb06e5993bc4bdb085c9a5f3f",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/f594a0802c34733bb06e5993bc4bdb085c9a5f3f"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjEuMw=="
+  },
+  {
+    "name": "v18.1.2",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.1.2",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.1.2",
+    "commit": {
+      "sha": "a5c951305c2409669162c235d81981bdc60dd9e7",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/a5c951305c2409669162c235d81981bdc60dd9e7"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjEuMg=="
+  },
+  {
+    "name": "v18.1.1",
+    "zipball_url": "https://api.github.com/repos/ceph/ceph/zipball/refs/tags/v18.1.1",
+    "tarball_url": "https://api.github.com/repos/ceph/ceph/tarball/refs/tags/v18.1.1",
+    "commit": {
+      "sha": "7a65e07b6481e242169599fcb08d7a3123535b86",
+      "url": "https://api.github.com/repos/ceph/ceph/commits/7a65e07b6481e242169599fcb08d7a3123535b86"
+    },
+    "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjE4LjEuMQ=="
+  }
+]

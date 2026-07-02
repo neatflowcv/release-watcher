@@ -1,0 +1,24 @@
+{
+  "node_id": "TA_kwDOACNBX9oAKGI0NDQ5OGZkNmQxOGUzNjA2NTg0OGM4MGUwMGVkYjY0YWNhZTFhZGY",
+  "sha": "b44498fd6d18e36065848c80e00edb64acae1adf",
+  "url": "https://api.github.com/repos/ceph/ceph/git/tags/b44498fd6d18e36065848c80e00edb64acae1adf",
+  "tagger": {
+    "name": "Patrick Donnelly",
+    "email": "pdonnell@ibm.com",
+    "date": "2026-06-10T20:35:37Z"
+  },
+  "object": {
+    "sha": "cc6b5e2da077eadb8bc32a25e1a33143da0b9bdb",
+    "type": "commit",
+    "url": "https://api.github.com/repos/ceph/ceph/git/commits/cc6b5e2da077eadb8bc32a25e1a33143da0b9bdb"
+  },
+  "tag": "v21.3.0",
+  "message": "tag version after umbrella for `main` so upgrades work\n-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRYMRoAg2sNnb9yCFAFN1jAqKPOLwUCainKpQAKCRAFN1jAqKPO\nL5mmAP9i5XT48TwCXI2XvLLPAaraTllYu63XO6LdRAMnWrTfHAEAr4t5f4jur1sx\nG8VaI5Na5MWVwFDsQpXpLTQFo06+Hgs=\n=VB2J\n-----END PGP SIGNATURE-----\n",
+  "verification": {
+    "verified": false,
+    "reason": "unknown_key",
+    "signature": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQRYMRoAg2sNnb9yCFAFN1jAqKPOLwUCainKpQAKCRAFN1jAqKPO\nL5mmAP9i5XT48TwCXI2XvLLPAaraTllYu63XO6LdRAMnWrTfHAEAr4t5f4jur1sx\nG8VaI5Na5MWVwFDsQpXpLTQFo06+Hgs=\n=VB2J\n-----END PGP SIGNATURE-----\n",
+    "payload": "object cc6b5e2da077eadb8bc32a25e1a33143da0b9bdb\ntype commit\ntag v21.3.0\ntagger Patrick Donnelly <pdonnell@ibm.com> 1781123737 -0400\n\ntag version after umbrella for `main` so upgrades work\n",
+    "verified_at": null
+  }
+}

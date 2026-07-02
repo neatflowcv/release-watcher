@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/v21.3.0",
+  "node_id": "MDM6UmVmMjMxMDQ5NTpyZWZzL3RhZ3MvdjIxLjMuMA==",
+  "url": "https://api.github.com/repos/ceph/ceph/git/refs/tags/v21.3.0",
+  "object": {
+    "sha": "b44498fd6d18e36065848c80e00edb64acae1adf",
+    "type": "tag",
+    "url": "https://api.github.com/repos/ceph/ceph/git/tags/b44498fd6d18e36065848c80e00edb64acae1adf"
+  }
+}

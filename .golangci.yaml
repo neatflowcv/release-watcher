@@ -4,4 +4,5 @@ linters:
   disable:
     - depguard # The default policy blocks imports between this module's internal packages.
     - gomodguard # Deprecated by golangci-lint; replaced by gomodguard_v2.
+    - tagliatelle # External APIs often use snake_case JSON fields.
     - wsl # Deprecated by golangci-lint; replaced by wsl_v5.
