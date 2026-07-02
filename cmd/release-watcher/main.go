@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/neatflowcv/release-watcher/internal/app/server"
+	"github.com/neatflowcv/release-watcher/internal/app/watcher"
 	pgxrepository "github.com/neatflowcv/release-watcher/internal/pkg/repository/pgx"
 )
 
@@ -35,6 +36,17 @@ func run() error {
 		return fmt.Errorf("create project repository: %w", err)
 	}
 	defer projectRepository.Close()
+
+	projectWatcher, err := watcher.NewWatcher(projectRepository)
+	if err != nil {
+		return fmt.Errorf("create project watcher: %w", err)
+	}
+	defer projectWatcher.Close()
+
+	err = projectWatcher.Run()
+	if err != nil {
+		return fmt.Errorf("run watcher: %w", err)
+	}
 
 	err = server.Run(projectRepository, os.Getenv(addressEnv))
 	if err != nil {
