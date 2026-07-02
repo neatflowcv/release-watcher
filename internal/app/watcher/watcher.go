@@ -3,7 +3,6 @@ package watcher
 
 import (
 	"context"
-	"errors"
 	"fmt"
 	"time"
 
@@ -12,10 +11,6 @@ import (
 )
 
 const defaultScanInterval = 6 * time.Hour
-
-var (
-	errMissingRepository = errors.New("missing project repository")
-)
 
 // Watcher periodically scans all projects.
 type Watcher struct {
