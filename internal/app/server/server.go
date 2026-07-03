@@ -31,13 +31,17 @@ type listProjectsOutput struct {
 }
 
 type createProjectBody struct {
-	Name string `doc:"Project name"               json:"name"`
-	URL  string `doc:"Project release source URL" json:"url"`
+	Name           string                `doc:"Project name"               json:"name"`
+	URL            string                `doc:"Project release source URL" json:"url"`
+	VersionSource  domain.VersionSource  `doc:"Project version source"     json:"versionSource"`
+	VersionPattern domain.VersionPattern `doc:"Project version pattern"    json:"versionPattern"`
 }
 
 type projectResponseBody struct {
 	Name                string `doc:"Project name"                           json:"name"`
 	URL                 string `doc:"Project release source URL"             json:"url"`
+	VersionSource       string `doc:"Project version source"                 json:"versionSource"`
+	VersionPattern      string `doc:"Project version pattern"                json:"versionPattern"`
 	DetectedVersion     string `doc:"Latest version detected by the service" json:"detectedVersion"`
 	AcknowledgedVersion string `doc:"Version acknowledged by the user"       json:"acknowledgedVersion"`
 }
@@ -86,6 +90,8 @@ func registerProjectRoutes(
 		project := domain.NewProject(
 			input.Body.Name,
 			input.Body.URL,
+			input.Body.VersionSource,
+			input.Body.VersionPattern,
 			"",
 			"",
 		)
@@ -127,6 +133,8 @@ func projectBodyFromDomain(project *domain.Project) projectResponseBody {
 	return projectResponseBody{
 		Name:                project.Name(),
 		URL:                 project.URL(),
+		VersionSource:       string(project.VersionSource()),
+		VersionPattern:      string(project.VersionPattern()),
 		DetectedVersion:     project.DetectedVersion(),
 		AcknowledgedVersion: project.AcknowledgedVersion(),
 	}

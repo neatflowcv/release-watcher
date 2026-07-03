@@ -15,27 +15,43 @@ const (
 CREATE TABLE IF NOT EXISTS projects (
 	name text NOT NULL,
 	url text NOT NULL,
+	version_source text NOT NULL DEFAULT 'github_tags',
+	version_pattern text NOT NULL DEFAULT 'v_semver',
 	detected_version text NOT NULL,
 	acknowledged_version text NOT NULL
 )`
+
+	alterProjectsVersionSourceSQL = `
+ALTER TABLE projects
+ADD COLUMN IF NOT EXISTS version_source text NOT NULL DEFAULT 'github_tags'`
+
+	alterProjectsVersionPatternSQL = `
+ALTER TABLE projects
+ADD COLUMN IF NOT EXISTS version_pattern text NOT NULL DEFAULT 'v_semver'`
 
 	createProjectSQL = `
 INSERT INTO projects (
 	name,
 	url,
+	version_source,
+	version_pattern,
 	detected_version,
 	acknowledged_version
 ) VALUES (
 	$1,
 	$2,
 	$3,
-	$4
+	$4,
+	$5,
+	$6
 )`
 
 	listProjectsSQL = `
 SELECT
 	name,
 	url,
+	version_source,
+	version_pattern,
 	detected_version,
 	acknowledged_version
 FROM projects
@@ -63,6 +79,20 @@ func NewRepository(dsn string) (*Repository, error) {
 		return nil, fmt.Errorf("create projects table: %w", err)
 	}
 
+	_, err = pool.Exec(context.Background(), alterProjectsVersionSourceSQL)
+	if err != nil {
+		pool.Close()
+
+		return nil, fmt.Errorf("add project version source column: %w", err)
+	}
+
+	_, err = pool.Exec(context.Background(), alterProjectsVersionPatternSQL)
+	if err != nil {
+		pool.Close()
+
+		return nil, fmt.Errorf("add project version pattern column: %w", err)
+	}
+
 	return &Repository{pool: pool}, nil
 }
 
@@ -81,6 +111,8 @@ func (r *Repository) CreateProject(
 		createProjectSQL,
 		project.Name(),
 		project.URL(),
+		project.VersionSource(),
+		project.VersionPattern(),
 		project.DetectedVersion(),
 		project.AcknowledgedVersion(),
 	)
@@ -107,6 +139,8 @@ func (r *Repository) ListProjects(
 		var (
 			name                string
 			url                 string
+			versionSource       domain.VersionSource
+			versionPattern      domain.VersionPattern
 			detectedVersion     string
 			acknowledgedVersion string
 		)
@@ -114,6 +148,8 @@ func (r *Repository) ListProjects(
 		scanErr := rows.Scan(
 			&name,
 			&url,
+			&versionSource,
+			&versionPattern,
 			&detectedVersion,
 			&acknowledgedVersion,
 		)
@@ -124,6 +160,8 @@ func (r *Repository) ListProjects(
 		project := domain.NewProject(
 			name,
 			url,
+			versionSource,
+			versionPattern,
 			detectedVersion,
 			acknowledgedVersion,
 		)
