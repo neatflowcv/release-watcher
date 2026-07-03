@@ -4,6 +4,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/neatflowcv/release-watcher/internal/pkg/version"
 	githubclient "github.com/neatflowcv/release-watcher/internal/pkg/version/github/client"
 )
 
@@ -27,11 +28,18 @@ type semanticTag struct {
 	version semanticVersion
 }
 
-func parseSemanticTags(tags []*githubclient.Tag) []semanticTag {
+func parseSemanticTags(
+	tags []*githubclient.Tag,
+	filter version.Filter,
+) []semanticTag {
 	parser := newVPrefixSemanticVersionParser(fixedSemanticVersionParser{})
 	semanticTags := make([]semanticTag, 0, len(tags))
 
 	for _, tag := range tags {
+		if !filter.FilterVersion(tag.Name) {
+			continue
+		}
+
 		version, ok := parser.Parse(tag.Name)
 		if !ok {
 			continue

@@ -23,11 +23,15 @@ var (
 )
 
 // TagsFetcher retrieves the latest version from a GitHub repository tag list.
-type TagsFetcher struct{}
+type TagsFetcher struct {
+	filter version.Filter
+}
 
 // NewTagsFetcher creates a GitHub tag version fetcher.
-func NewTagsFetcher() *TagsFetcher {
-	return &TagsFetcher{}
+func NewTagsFetcher(filter version.Filter) *TagsFetcher {
+	return &TagsFetcher{
+		filter: filter,
+	}
 }
 
 // GetLatestVersion returns the highest semantic version from recent GitHub tags.
@@ -72,7 +76,7 @@ func (f *TagsFetcher) highestVerifiedSemanticTag(
 	apiClient *githubclient.Client,
 	tags []*githubclient.Tag,
 ) (string, error) {
-	semanticTags := parseSemanticTags(tags)
+	semanticTags := parseSemanticTags(tags, f.filter)
 	if len(semanticTags) == 0 {
 		return "", errNoSemanticTags
 	}
